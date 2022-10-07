@@ -1,0 +1,40 @@
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        // https://www.youtube.com/watch?v=GhQdlIFylQ8 for associated turtorial
+        Console.WriteLine("Calculator");
+        Console.WriteLine("Please input your first number:");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+        Console.WriteLine("Please input your operator:");
+        char oper = Convert.ToChar(Console.ReadLine());
+        Console.WriteLine("Please input your second number:");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        double result = 0;
+
+        switch (oper)
+        {
+            case '+':
+                result = num1 + num2;
+                Console.WriteLine($"Result of {num1} {oper} {num2} is: {result}");
+                break;
+            case '-':
+                result = num1 - num2;
+                Console.WriteLine($"Result of {num1} {oper} {num2} is: {result}");
+                break;
+            case '*':
+                result = num1 * num2;
+                Console.WriteLine($"Result of {num1} {oper} {num2} is: {result}");
+                break;
+            case '/':
+                result = num1 / num2;
+                Console.WriteLine($"Result of {num1} {oper} {num2} is: {result}");
+                break;
+            default:
+                Console.WriteLine("Sorry that value is invalid.");
+                break;
+        }
+
+    }
+}
