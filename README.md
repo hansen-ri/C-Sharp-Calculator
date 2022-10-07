@@ -1,6 +1,6 @@
 # C-Sharp-Calculator
 
-First Step into the world of Visual Studio and C# sharp development
+First Step into the world of Visual Studio and C# development
 
 [YouTube Tutorial](https://www.youtube.com/watch?v=GhQdlIFylQ8)
 
